@@ -17,7 +17,7 @@ export const PrimaryBtn = ({ block, url, buttonTitle, target }: Button) => {
 
 export const SecodaryBtn = ({ block, url, buttonTitle, target }: Button) => {
   return (
-    <Link target={target} className={`p-2 rounded-md  inline-flex ${!block ? 'w-22' : ''} hover:border-blue-400  border-2 font-semibold border-transparent text-black  hover:text-blue-400 justify-center dark:text-white dark:hover:text-blue-400`} href={url} target={target}>
+    <Link target={target} className={`p-2 rounded-md  inline-flex ${!block ? 'w-22' : ''} hover:border-blue-400  border-2 font-semibold border-transparent text-black  hover:text-blue-400 justify-center dark:text-white dark:hover:text-blue-400`} href={url}>
 
       {buttonTitle}
     </Link>
